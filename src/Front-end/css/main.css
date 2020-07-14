@@ -1,0 +1,100 @@
+﻿* {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#chartdiv {
+    width: 100%;
+    height: 500px;
+}
+
+header {
+    background: none;
+}
+
+    header h1 {
+        margin: 15px 10px 0 27px;
+        padding: 0;
+        display: inline-block;
+        color: rgba(0, 95, 187, 1);
+    }
+
+.brand-logo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    float: right;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background: none;
+    color: #222;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        position: absolute;
+        left: 75px;
+        top: 5px;
+        margin: 0;
+        color: rgba(0, 95, 187, 1);
+    }
+
+    header .brand-logo {
+        float: left;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin: 0;
+    }
+
+    header .nav a {
+        padding: 10px 10px 10px 30px;
+    }
+}
+
+.banner {
+    background-color: rgba(0, 95, 187, 6);
+}
+
+    .banner h2 {
+        color: #FFFFFF;
+    }
+
+
+header .container-fluid {
+    padding-left: 0;
+}
+
+header .navbar-default {
+    background: none;
+    border: none;
+}
+
+table {
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+    table thead th {
+        border-width: 1px;
+        padding: 4px;
+        border-style: solid;
+        border-color: #DCDCDC;
+    }
+
+    table tbody td {
+        border-width: 1px;
+        padding: 4px;
+        border-style: solid;
+        border-color: #DCDCDC;
+    }
